@@ -92,6 +92,7 @@ img[alt='bird']{
   -webkit-object-fit: cover;
 }
 #content{
+  width:100%;
 position: absolute;
 top: 0;
 }
