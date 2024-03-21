@@ -2,14 +2,14 @@
 :root{
   margin: 0;
   padding: 0;
-  --Alcaldia: #1c75bc;
-  --Vitalidad: #e52a2f;
-  --Cielo: #73bbe9;
-  --Tradición: #e4c54e;
-  --Naturaleza: #7dba2b;
-  --Arquitectura: #9d9d9c;
-  --Seriedad: #3c3c3b;
-  --background-white: #f2f2f2;
+  --alcaldia: #1c75bc;
+  --vitalidad: #e52a2f;
+  --cielo: #73bbe9;
+  --tradicion: #e4c54e;
+  --naturaleza: #7dba2b;
+  --arquitectura: #9d9d9c;
+  --seriedad: #3c3c3b;
+  --white: #f2f2f2;
 }
 
 @font-face {
@@ -27,6 +27,7 @@
     font-size: 1.3rem;
     text-decoration: none;
     list-style-type: none;
+    overflow:none;
 
   }
   
@@ -45,12 +46,11 @@
   }
 
 /*//////////////////MODULO LOGO*/
-#header{
-  margin-top: 50%;
+#welcome{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1.8em;
+  padding: 0em 1.8em;
 }
 #logo{
   width: 100%;
@@ -71,9 +71,13 @@ img[alt='bird']{
 }
 .link{
   text-align: center;
+  color: var(--cielo);
 }
 
-
+/*////////////////// MODULO LOGO*/
+#slogan{
+margin: 1.2rem 0rem;
+}
 
 /*////////////////// MODULO HOME*/
 #overlay {
@@ -82,17 +86,32 @@ img[alt='bird']{
   left: 0;
   width: 100%;
   height: 100vh;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
 }
 #background {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100vh;
-  -o-object-fit: cover;
-  object-fit: cover;
-  -webkit-object-fit: cover;
+  object-fit: cover; 
+  z-index: 0;
 }
 #content{
-  width:100%;
-position: absolute;
-top: 0;
+  color: var(--white);
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+}
+
+/*//////////////////MODULO MENU*/
+nav{
+  background: var(--vitalidad);
+  padding: 1em 0.4em;
+}
+
+#logo.menu{
 }
