@@ -1,11 +1,14 @@
 import Menu from '../bases/Menu';
+import Content from '../bases/Content';
+import Footer from '../bases/Footer';
 
 function Index () {
     return(
         <>
-        <div id={`Index`}>
+        <div id={`index`}>
             <Menu/>
-            <h1>Index</h1>
+            <Content/>
+            <Footer/>
         </div>
         </>
     )

@@ -1,7 +1,5 @@
 /*//////////////////ESTILOS GENERALES*/
 :root{
-  margin: 0;
-  padding: 0;
   --alcaldia: #1c75bc;
   --vitalidad: #e52a2f;
   --cielo: #73bbe9;
@@ -10,6 +8,7 @@
   --arquitectura: #9d9d9c;
   --seriedad: #3c3c3b;
   --white: #f2f2f2;
+  background-color: var(--white);
 }
 
 @font-face {
@@ -27,8 +26,6 @@
     font-size: 1.3rem;
     text-decoration: none;
     list-style-type: none;
-    overflow:none;
-
   }
   
   h1,h2,h3,h4 {
@@ -44,12 +41,33 @@
     font-family: "DMSerifDisplay-Regular", sans-serif;
     font-weight: 900 ;
   }
+  
+  ul{
+    text-align: center;
+    padding: 0.3em 0em;
+  }
+  li{
+    padding: 0.1em 0em;
+  }
 
-/*//////////////////MODULO LOGO*/
-#welcome{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  a{
+    color: var(--white);
+
+  }
+  a:hover{
+    cursor: pointer;
+    color: var(--seriedad);
+  }
+  p{
+    text-align:center;
+    padding: 1em 1.8em;
+  }
+
+  /*//////////////////MODULO WELCOME*/
+  #welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   padding: 0em 1.8em;
 }
 #logo{
@@ -69,14 +87,16 @@ img[alt='bird']{
 #slogan{
   text-align: center;
 }
+
 .link{
   text-align: center;
   color: var(--cielo);
+  font-size: 2rem;
 }
 
 /*////////////////// MODULO LOGO*/
 #slogan{
-margin: 1.2rem 0rem;
+  margin: 1.2rem 0rem;
 }
 
 /*////////////////// MODULO HOME*/
@@ -95,10 +115,12 @@ margin: 1.2rem 0rem;
   left: 0;
   width: 100%;
   height: 100vh;
-  object-fit: cover; 
+  -o-object-fit: cover;
+  object-fit: cover;
+  -webkit-object-fit: cover;
   z-index: 0;
 }
-#content{
+#welcome{
   color: var(--white);
   width: 100%;
   position: absolute;
@@ -109,9 +131,72 @@ margin: 1.2rem 0rem;
 
 /*//////////////////MODULO MENU*/
 nav{
+  width: 100%;
   background: var(--vitalidad);
+  flex-direction: column;
+  justify-content: center;
   padding: 1em 0.4em;
 }
 
-#logo.menu{
+/*//////////////////MODULO INDEX*/
+#index{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*//////////////////MODULO CONTENT*/
+#content{
+  padding: 0em 0em 2em 0em;
+}
+
+
+/*//////////////////MODULO FOOTER*/
+footer{
+  width: 100%;
+  background-color: var(--vitalidad);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 0.4em;
+}
+
+/*//////////////////MODULO MAIN*/
+
+img[alt='city']{
+  padding:1em 0em;
+  width:100%;
+  height:40vh;
+  object-fit: cover;
+}
+
+/*//////////////////MODULOS SECTIONS && SECTION*/
+.section{
+  width: 100%;
+  height: 10em;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end; 
+  align-items: flex-start; 
+  padding: 0.8em;
+  background-size: cover; 
+  background-position: center; 
+}
+.link-section{
+  text-align: left;
+}
+#Concurso{
+  background-image: url('./assets/images/City.png');
+}
+#Talleres{
+  background-image: url('./assets/images/City.png');
+}
+#Murales{
+  background-image: url('./assets/images/City.png');
+}
+#Libro{
+  background-image: url('./assets/images/City.png');
 }

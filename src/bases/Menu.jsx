@@ -7,9 +7,19 @@ function Menu (){
         <nav>
         <Header styles={'menu'} type={ImagotypeWhite}/>
         <ul>
-            <li>El proyecto</li>
-            <li>Prensa</li>
-            <li>Contacto</li>
+            <li>
+                <a href="#">
+                El proyecto
+                </a>
+                </li>
+            <li><a href="#">
+                Prensa
+            </a>
+                </li>
+            <li><a href="#">
+                Contacto
+            </a>
+                </li>
         </ul>
         </nav>
         </>

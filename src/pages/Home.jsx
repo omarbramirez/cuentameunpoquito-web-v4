@@ -16,7 +16,7 @@ function Home() {
                     src={Background}
                     type="video/mp4"
                 />
-                <div id={`content`}>
+                <div id={`welcome`}>
                     <Welcome/>
                 </div>
             </div>
