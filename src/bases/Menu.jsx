@@ -1,27 +1,39 @@
 import Header from './Header';
 import ImagotypeWhite from '../assets/images/logowhite.png'
 
-function Menu (){
-    return(
+// eslint-disable-next-line react/prop-types
+function Menu({ setSelectedPage }) {
+    return (
         <>
-        <nav>
-        <Header styles={'menu'} type={ImagotypeWhite}/>
-        <ul>
-            <li>
-                <a href="#">
-                El proyecto
-                </a>
-                </li>
-            <li><a href="#">
-                Prensa
-            </a>
-                </li>
-            <li><a href="#">
-                Contacto
-            </a>
-                </li>
-        </ul>
-        </nav>
+            <nav>
+                <div style={{padding: '0em 0.6em'}}>
+                    <Header styles={'menu'} type={ImagotypeWhite} setSelectedPage={setSelectedPage} />
+                    <ul>
+                        <li>
+                            <a 
+                            href="#"
+                            onClick={()=>{setSelectedPage('Proyecto')}}
+                            >
+                                El proyecto
+                            </a>
+                        </li>
+                        <li><a href="https://drive.google.com/drive/folders/1-Ct4mvdKUvZOYwINpmovhIONb6yEePdV?usp=sharing"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            Prensa
+                        </a>
+                        </li>
+                        <li><a 
+                        href="#"
+                        onClick={()=>{setSelectedPage('Contacto')}}
+                        >
+                            Contacto
+                        </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </>
     )
 }

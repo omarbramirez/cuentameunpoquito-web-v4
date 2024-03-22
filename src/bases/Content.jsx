@@ -1,12 +1,13 @@
 import Main from '../pages/Main'
 
 
-function Content (){
+// eslint-disable-next-line react/prop-types
+function Content ({setSelectedPage}){
     return (
         <>
         
         <div id={`content`}>
-        <Main/>
+        <Main setSelectedPage={setSelectedPage}/>
         </div>
         </>
     )

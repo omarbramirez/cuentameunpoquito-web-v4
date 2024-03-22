@@ -1,7 +1,8 @@
 import Welcome from '../bases/Welcome';
 import Background from '../assets/Background.mp4'
 
-function Home() {
+// eslint-disable-next-line react/prop-types
+function Home({setIndex}) {
     return (
         <>
             <div id={`Home`}>
@@ -17,7 +18,7 @@ function Home() {
                     type="video/mp4"
                 />
                 <div id={`welcome`}>
-                    <Welcome/>
+                    <Welcome setIndex={setIndex}/>
                 </div>
             </div>
         </>

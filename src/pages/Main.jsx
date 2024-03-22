@@ -1,7 +1,8 @@
 import City from '../assets/images/City.png'
 import Sections from '../components/Sections'
 
-function Main() {
+// eslint-disable-next-line react/prop-types
+function Main({setSelectedPage}) {
     return (
         <>
             <img
@@ -13,7 +14,7 @@ function Main() {
                 referente cultural en el Distrito Metropolitano de Quito al fortalecer
                 la conexión entre la literatura y la comunidad.
             </p>
-            <Sections />
+            <Sections setSelectedPage={setSelectedPage}/>
         </>
     )
 }

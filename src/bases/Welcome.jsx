@@ -1,7 +1,8 @@
 import Header from './Header';
 import Imagotype from '../assets/images/logo.png'
 
-function Welcome() {
+// eslint-disable-next-line react/prop-types
+function Welcome({setIndex}) {
     return (
         <>
             <div id={`welcome`}>
@@ -12,6 +13,7 @@ function Welcome() {
                 <a
                     href="#"
                     className={`link`}
+                    onClick={()=>{setIndex(true)}}
                 >
                     Ir al sitio
                 </a>
