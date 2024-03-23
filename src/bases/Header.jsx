@@ -11,8 +11,8 @@ function Header({styles, type, setSelectedPage}){
         >
             <Bird
             fill={`#fff`}
-            width={`3.2em`}
-            height={`3.2em`}
+            width={`5rem`}
+            height={`5rem`}
             />
             <img 
             src={type}

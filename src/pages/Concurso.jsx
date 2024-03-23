@@ -1,7 +1,11 @@
 function Concurso(){
     return(
         <>
-        CONCURSO
+        <h2>GANADORES</h2>
+        <div>
+
+            +
+        </div>
         </>
     )
 }
