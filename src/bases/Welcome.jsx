@@ -8,7 +8,7 @@ function Welcome({setIndex}) {
             <div id={`welcome`}>
                 <Header type={Imagotype}/>
                 <p id={`slogan`}>
-                    Historias que caben en la palma de la mano, relatos que duran lo que el canto de un gorrión, cuentos breves en menos de 150 palabras.
+Celebramos la literatura breve en la ciudad de Quito.
                 </p>
                 <a
                     href="#"

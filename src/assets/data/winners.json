@@ -1,0 +1,243 @@
+[
+    {
+        "CATEGORIA": "INFANTIL",
+        "CUENTOS": [
+          {
+            "POSICION": "1ER LUGAR",
+            "CUENTO": "EL GALLITO",
+            "NOMBRE": "PABLO NICOLÁS CASTILLO LÓPEZ"
+          },
+          {
+            "POSICION": "2DO LUGAR",
+            "CUENTO": "TORITO TESORITO",
+            "NOMBRE": "JULIANO MORENO FRANCO"
+          },
+          {
+            "POSICION": "3ER LUGAR",
+            "CUENTO": "LA CAÍDA MÁGICA",
+            "NOMBRE": "SOL YÉPEZ"
+          }
+        ]
+      },
+      {
+        "CATEGORIA": "JUVENIL",
+        "CUENTOS": [
+          {
+            "POSICION": "1ER LUGAR",
+            "CUENTO": "MISTERIO TRAS MISTERIO",
+            "NOMBRE": "WILLIAM CHUQUIMARCA"
+          },
+          {
+            "POSICION": "2DO LUGAR",
+            "CUENTO": "CADENAS",
+            "NOMBRE": "ADRIANA PALACIOS"
+          },
+          {
+            "POSICION": "3ER LUGAR",
+            "CUENTO": "LA LEYENDA",
+            "NOMBRE": "VALERIA CELESTE CABRERA SANGUCHO"
+          }
+        ]
+      },
+      {
+        "CATEGORIA": "ADULTOS",
+        "CUENTOS": [
+          {
+            "POSICION": "1ER LUGAR",
+            "CUENTO": "LA BASÍLICA",
+            "NOMBRE": "ALEXIS ROBERTO NOBOA ARREGUI"
+          },
+          {
+            "POSICION": "2DO LUGAR",
+            "CUENTO": "LA CARITA DE DIOS",
+            "NOMBRE": "SARA MICAELA SANTILLÁN ARROYO"
+          },
+          {
+            "POSICION": "3ER LUGAR",
+            "CUENTO": "LA HERENCIA",
+            "NOMBRE": "CHARO MEJÍA"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "EL ABUELO",
+            "NOMBRE": "JOYCE ALEXANDRA BAUS VILLAVICENCIO"
+          }
+        ]
+      },
+      {
+        "CATEGORIA": "FORTALEZA FEMENINA",
+        "CUENTOS": [
+          {
+            "POSICION": "1ER LUGAR",
+            "CUENTO": "COMO TODOS LOS DÍAS",
+            "NOMBRE": "JOSUÉ JULIÁN LÓPEZ LUDEÑA"
+          },
+          {
+            "POSICION": "2DO LUGAR",
+            "CUENTO": "CHECK LIST PARA PODER LLEGAR CAMINANDO A MI DESTINO",
+            "NOMBRE": "PAULA ALEGÍA ESTRADA"
+          },
+          {
+            "POSICION": "3ER LUGAR",
+            "CUENTO": "MAMÁ ME RECONFORTÉ",
+            "NOMBRE": "KATHERINE FERNANDA CÁCERES PIÑALOZA"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "BLANCA",
+            "NOMBRE": "JORGE LUIS CASTRO RUÍZ"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "FIESTAS DE QUITO",
+            "NOMBRE": "MATÍAS JIMENEZ"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "LA NIÑA DE LOS TOMATES",
+            "NOMBRE": "JHASMIN ORTEGA"
+          }
+        ]
+      },
+      {
+        "CATEGORIA": "NUEVAS MASCULINIDADES",
+        "CUENTOS": [
+          {
+            "POSICION": "1ER LUGAR",
+            "CUENTO": "LA CALLE",
+            "NOMBRE": "DANILO PAÚL GUANOLUISA CHUQUI"
+          },
+          {
+            "POSICION": "2DO LUGAR",
+            "CUENTO": "EL SECRETO DEL GUAGUA",
+            "NOMBRE": "JOSÉ IGNACIO PAREDES LOZA"
+          },
+          {
+            "POSICION": "3ER LUGAR",
+            "CUENTO": "MANU Y EL COLIBRÍ",
+            "NOMBRE": "DIEGO CARRILLO"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "EL SECRETO DE LOS MERCADOS",
+            "NOMBRE": "DIANA CAROLINA VASCO PICO"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "DUDAS CAPITALES",
+            "NOMBRE": "HUGO PALACIOS"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "FLOR DE TAXO",
+            "NOMBRE": "CARLOS QUITO"
+          }
+        ]
+      },
+      {
+        "CATEGORIA": "COMUNIDAD LGBTQ",
+        "CUENTOS": [
+          {
+            "POSICION": "1ER LUGAR",
+            "CUENTO": "1989, BARRIO LA MARISCAL",
+            "NOMBRE": "JUAN CASTILLO"
+          },
+          {
+            "POSICION": "2DO LUGAR",
+            "CUENTO": "RUCU PICHINCHA",
+            "NOMBRE": "MATEO ARIAS"
+          },
+          {
+            "POSICION": "3ER LUGAR",
+            "CUENTO": "ESPINAS",
+            "NOMBRE": "HUGO DÁVILA"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "AMIGO DATE CUENTA",
+            "NOMBRE": "MARÍA JOSÉ HIDALGO LEÓN"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "EN QUE BUS VAS VOS VE",
+            "NOMBRE": "HUGO PALACIOS"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "A BELLA AURORA",
+            "NOMBRE": "PAULA STEFANY TAIPE PATIÑO"
+          }
+        ]
+      },
+      {
+        "CATEGORIA": "GRUPOS DIVERSOS",
+        "CUENTOS": [
+          {
+            "POSICION": "1ER LUGAR",
+            "CUENTO": "ÑUCA SAPI",
+            "NOMBRE": "CHARIK GUATEMAL"
+          },
+          {
+            "POSICION": "2DO LUGAR",
+            "CUENTO": "SOMOS DEL PÁRAMO",
+            "NOMBRE": "IÑIL MACAS"
+          },
+          {
+            "POSICION": "3ER LUGAR",
+            "CUENTO": "OH CIUDAD ESPAÑOLA EN EL ANDE",
+            "NOMBRE": "GUIDO SANTIAGO RUBIO CASANOVA"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "LAURA",
+            "NOMBRE": "YONN OLIVIER CHIRIBOGA OCAÑA"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "AMOR ESPUMOSO",
+            "NOMBRE": "HUGO PALACIOS"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "LOS AMIGOS DE DON FELIPE",
+            "NOMBRE": "FRANCISCO JAVIER ORBEA RONQUILLO"
+          }
+        ]
+      },
+      {
+        "CATEGORIA": "GRUPOS CAPACIDADES DIFERENTES",
+        "CUENTOS": [
+          {
+            "POSICION": "1ER LUGAR",
+            "CUENTO": "QUERIENDO CRUZAR",
+            "NOMBRE": "PATRICIO MARTÍN VILLALBA ALVEAR"
+          },
+          {
+            "POSICION": "2DO LUGAR",
+            "CUENTO": "POR COMEDIDO",
+            "NOMBRE": "CARLOS QUITO"
+          },
+          {
+            "POSICION": "3ER LUGAR",
+            "CUENTO": "SE SOLICITAN RUEDAS TODO TERRENO",
+            "NOMBRE": "JOSÉ EDUARDO GALLEGUILLOS BURGOS"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "HAS CAMINADO POR QUITO",
+            "NOMBRE": "ANA CRISTINA ESTRELLA CHAMORRO"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "ADRIAN",
+            "NOMBRE": "GUIDO FABIÁN GÓMEZ CORELLA"
+          },
+          {
+            "POSICION": "MENCIÓN",
+            "CUENTO": "TÍO QUERIDO",
+            "NOMBRE": "LEONARDO GRANIZO"
+          }
+        ]
+      }
+  ]
+  

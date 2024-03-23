@@ -17,7 +17,39 @@ function Menu({ setSelectedPage }) {
                                 El proyecto
                             </a>
                         </li>
-                        <li><a href="https://drive.google.com/drive/folders/1-Ct4mvdKUvZOYwINpmovhIONb6yEePdV?usp=sharing"
+                        <li>
+                            <a 
+                            href="#"
+                            onClick={()=>{setSelectedPage('Concurso')}}
+                            >
+                                Concurso
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                            href="#"
+                            onClick={()=>{setSelectedPage('Talleres')}}
+                            >
+                                Talleres
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                            href="#"
+                            onClick={()=>{setSelectedPage('Murales')}}
+                            >
+                                Murales
+                            </a>
+                        </li>
+                        <li>
+                            <a 
+                            href="#"
+                            onClick={()=>{setSelectedPage('Libro')}}
+                            >
+                                Libro
+                            </a>
+                        </li>
+                        <li><a href="https://drive.google.com/drive/folders/11AVHoCcuu15WAG40nor7yG8b1uty_kjb"
                             target="_blank"
                             rel="noreferrer"
                         >

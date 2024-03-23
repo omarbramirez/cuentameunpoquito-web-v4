@@ -1,4 +1,4 @@
-import City from '../assets/images/City.png'
+import Imagen06 from '../assets/images/Imagen06.jpg'
 import Sections from '../components/Sections'
 
 // eslint-disable-next-line react/prop-types
@@ -6,13 +6,11 @@ function Main({setSelectedPage}) {
     return (
         <>
             <img
-                src={City}
-                alt={`city`}
+                src={Imagen06}
+                alt={`background-image`}
             />
             <p>
-                Cuéntame un PoQuito es un proyecto integral y sostenible que funge como
-                referente cultural en el Distrito Metropolitano de Quito al fortalecer
-                la conexión entre la literatura y la comunidad.
+            Cuéntame un poQuito es una iniciativa para la promoción de la literatura breve en la ciudad de Quito. En nuestra primera edición hemos realizado talleres de escritura creativa para estudiantes de secundaria, un concurso de microcuento, intervenciones en espacio público y un libro objeto.  
             </p>
             <Sections setSelectedPage={setSelectedPage}/>
         </>
