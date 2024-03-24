@@ -2,12 +2,12 @@ import Main from '../pages/Main'
 
 
 // eslint-disable-next-line react/prop-types
-function Content ({setSelectedPage}){
+function Content ({setSelectedPage, setIsOpenMenu, isOpenMenu}){
     return (
         <>
         
         <div id={`content`}>
-        <Main setSelectedPage={setSelectedPage}/>
+        <Main setSelectedPage={setSelectedPage} setIsOpenMenu={setIsOpenMenu} isOpenMenu={isOpenMenu}/>
         </div>
         </>
     )

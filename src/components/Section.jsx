@@ -1,5 +1,5 @@
 // eslint-disable-next-line react/prop-types, no-unused-vars
-function Section ({sectionName,setSelectedPage}){
+function Section ({sectionName,setSelectedPage, setIsOpenMenu}){
 
     return(
         <>
@@ -7,13 +7,13 @@ function Section ({sectionName,setSelectedPage}){
             <div 
             id={sectionName}
             className={`section`}
-            onClick={()=>{setSelectedPage(sectionName)}}
+            onClick={()=>{setSelectedPage(sectionName),setIsOpenMenu(false)}}
             >
             </div>
             <a
                      
                     className={`link link-section`}
-                    onClick={()=>{setSelectedPage(sectionName)}}
+                    onClick={()=>{setSelectedPage(sectionName),setIsOpenMenu(false) }}
                 >
                    {sectionName}
                 </a>

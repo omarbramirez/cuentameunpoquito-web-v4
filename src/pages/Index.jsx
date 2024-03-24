@@ -11,11 +11,12 @@ import Contacto from './Contacto';
 import NotFound from '../bases/NotFound';
 
 function Index () {
-    const[selectedPage, setSelectedPage] =useState('Index')
+    const[selectedPage, setSelectedPage] =useState('Index');
+    const [isOpenMenu, setIsOpenMenu] = useState(false);
     return(
         <>
         <div id={`index`}>
-            <Menu setSelectedPage={setSelectedPage}/>
+            <Menu setSelectedPage={setSelectedPage} setIsOpenMenu={setIsOpenMenu} isOpenMenu={isOpenMenu}/>
             <div id={`container`}>
 
             {selectedPage === 'Concurso' ? <Concurso/>:
@@ -24,7 +25,7 @@ function Index () {
             selectedPage === 'Libro' ? <Libro/>:
             selectedPage === 'Proyecto' ? <Proyecto/>:
             selectedPage === 'Contacto' ? <Contacto/>:
-            selectedPage === 'Index' ? <Content setSelectedPage={setSelectedPage}/>
+            selectedPage === 'Index' ? <Content setSelectedPage={setSelectedPage} setIsOpenMenu={setIsOpenMenu} isOpenMenu={isOpenMenu}/>
             : <NotFound/>
         }
         </div>

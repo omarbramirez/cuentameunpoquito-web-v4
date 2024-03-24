@@ -1,13 +1,13 @@
 import Bird from '../assets/visual-components/Bird'
 
 // eslint-disable-next-line react/prop-types
-function Header({styles, type, setSelectedPage}){
+function Header({styles, type, setSelectedPage, setIsOpenMenu}){
     return(
         <>
         <div
         id={`logo`}
         className={`${styles}`}
-        onClick={()=>{setSelectedPage('Index')}}
+        onClick={()=>{setSelectedPage('Index'),setIsOpenMenu(false)}}
         >
             <Bird
             fill={`#fff`}

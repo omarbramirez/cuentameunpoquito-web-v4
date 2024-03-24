@@ -1,5 +1,5 @@
 /*//////////////////ESTILOS GENERALES*/
-:root{
+:root {
   --alcaldia: #1c75bc;
   --vitalidad: #e52a2f;
   --cielo: #73bbe9;
@@ -13,93 +13,96 @@
 }
 
 @font-face {
-    font-family: 'DMSerifDisplay-Regular';
-    src: url('./assets/fonts/DMSerifDisplay-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  
-  * {
-    margin: 0;
-    padding: 0;
-    font-family: "Archivo Regular", sans-serif;
-    font-size: 1.2rem;
-    text-decoration: none;
-    list-style-type: none;
-  }
-  #container{
-    padding: 10% 0%;
-  }
-  
-  h1,h2,h3,h4 {
-    text-align:center;
-    margin: 10px 0px 10px 0px;
-    font-weight: bold;
-  }
-  
-  h1{
-    font-size: 2rem;
-  }
-  h2{
-    font-size: 1.8rem;
-    font-family: "DMSerifDisplay-Regular", sans-serif;
-    font-weight: 900 ;
-
-  }
-  
-  ul{
-    text-align: center;
-    padding: 0.3em 0em;
-  }
-  li{
-    padding: 0.1em 0em;
-  }
-
-  a{
-
-    color: var(--white);
-
-  }
-  a:hover{
-    cursor: pointer;
-    color: var(--seriedad);
-  }
-  p{
-    text-align:center;
-    padding: 1em 1.8em;
-
-  }
-  b{
-    display:block;
-    text-align: center;
-    margin: 0.7em 1.8em;
-  }
-
-  img{
-    width:100%;
-  }
-  .buttom{}
-
-  /*//////////////////MODULO WELCOME*/
-  #welcome{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  font-family: "DMSerifDisplay-Regular";
+  src: url("./assets/fonts/DMSerifDisplay-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
 }
-#logo{
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Archivo Regular", sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  list-style-type: none;
+}
+#container {
+  padding: 10% 0%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.8rem;
+  font-family: "DMSerifDisplay-Regular", sans-serif;
+  font-weight: 900;
+}
+
+ul {
+  text-align: center;
+  padding: 0.3em 0em;
+}
+li {
+  padding: 0.1em 0em;
+}
+
+a {
+  color: var(--white);
+}
+a:hover {
+  cursor: pointer;
+  color: var(--seriedad);
+}
+p {
+  text-align: center;
+  padding: 1em 1.8em;
+}
+b {
+  display: block;
+  text-align: center;
+  margin: 0.7em 1.8em;
+}
+
+img {
+  width: 100%;
+}
+.buttom {
+}
+.icons {
+  width: 2rem;
+  max-width: 30px;
+}
+
+/*//////////////////MODULO WELCOME*/
+#welcome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#logo {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   cursor: pointer;
 }
-.logo-components{
+.logo-components {
   width: 9rem;
   object-fit: scale-down;
 }
 
-.link{
+.link {
   text-align: center;
   color: var(--cielo);
 }
@@ -125,7 +128,7 @@
   -webkit-object-fit: cover;
   z-index: 0;
 }
-#welcome{
+#welcome {
   color: var(--white);
   width: 100%;
   position: absolute;
@@ -135,7 +138,10 @@
 }
 
 /*//////////////////MODULO MENU*/
-nav{
+nav {
+  position:sticky;
+    Top:0px;
+    z-index: 99999;
   width: 100%;
   background: var(--vitalidad);
   flex-direction: column;
@@ -143,8 +149,19 @@ nav{
   padding: 1em 0em;
 }
 
+/*FUNCTIONS*/
+.dvs-header-menuItems {
+  display: none;
+
+}
+
+.dvs-header-menuItems.is-open {
+  display: block;
+  height: 50vh;
+}
+
 /*//////////////////MODULO INDEX*/
-#index{
+#index {
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -154,13 +171,12 @@ nav{
 }
 
 /*//////////////////MODULO CONTENT*/
-#content{
+#content {
   padding: 0em 0em 2em 0em;
 }
 
-
 /*//////////////////MODULO FOOTER*/
-footer{
+footer {
   width: 100%;
   background-color: var(--vitalidad);
   display: flex;
@@ -172,16 +188,16 @@ footer{
 
 /*//////////////////MODULO MAIN*/
 
-img[alt='city']{
-  padding-bottom:1em;
-  width:100%;
-  height:40vh;
+img[alt="city"] {
+  padding-bottom: 1em;
+  width: 100%;
+  height: 40vh;
   object-fit: cover;
 }
 
 /*//////////////////MODULOS SECTIONS && SECTION*/
 
-.section-container{
+.section-container {
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -189,7 +205,7 @@ img[alt='city']{
   padding: 0;
 }
 
-.section{
+.section {
   height: 10em;
   cursor: pointer;
   background-position: center;
@@ -198,64 +214,63 @@ img[alt='city']{
   transition: all 1s;
 }
 
-.section::after{
+.section::after {
   content: ""; /* Agrega este contenido */
   position: absolute;
   top: 0;
-  left:0;
+  left: 0;
   height: 11em;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 0;
 }
 
-.section:hover
-.section:focus{
+.section:hover .section:focus {
   transform: scale(1);
 }
-.link-section{
+.link-section {
   position: absolute;
   bottom: 0;
   right: 0.6em;
   padding: 0em 0em 0.6em 0em;
 }
-.link-section:hover{
+.link-section:hover {
   color: var(--white);
 }
-#Concurso{
-  background-image: url('./assets/images/Bird.png');
+#Concurso {
+  background-image: url("./assets/images/Bird.png");
 }
-#Talleres{
-  background-image: url('./assets/images/Imagen07.jpg');
+#Talleres {
+  background-image: url("./assets/images/Imagen07.jpg");
 }
-#Murales{
-  background-image: url('./assets/images/Mural.png');
+#Murales {
+  background-image: url("./assets/images/Mural.png");
 }
-#Libro{
-  background-image: url('./assets/images/Libro.jpg');
+#Libro {
+  background-image: url("./assets/images/Libro.jpg");
 }
 
 /*//////////////////MODULO CONTACTO*/
-#form{
-  display:block;
+#form {
+  display: block;
   margin: 4rem 0rem;
   padding: 0em 1em;
 }
 
-img[alt='bird']{
+img[alt="bird"] {
   margin: 0rem 0rem 0.9rem 0rem;
-  width:100%;
+  width: 100%;
   object-fit: cover;
 }
 
 /*//////////////////MODULO CONCURSO*/
-#mural{
+#mural {
   background: var(--mural);
   padding: 1em;
   margin: 10% 0%;
 }
 /*//////////////////MODULO WINNERS*/
-#table{
+#table {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -263,11 +278,10 @@ img[alt='bird']{
   padding: 1em;
   margin: 5% 0%;
 }
-table{
+table {
   margin: 5% 0%;
 }
-thead{
-
+thead {
 }
 
 table > *,
@@ -280,8 +294,8 @@ td {
 }
 
 /*//////////////////MODULO LIBRO*/
-#book{
-  background-image: url('./assets/images/Libro.jpg');
+#book {
+  background-image: url("./assets/images/Libro.jpg");
   width: 100vw;
   height: 100vh; /* Establece la altura al 100% del viewport */
   margin: 0; /* Elimina los márgenes */
@@ -290,19 +304,19 @@ td {
   background-size: cover;
   background-repeat: no-repeat;
 }
-#book::after{
+#book::after {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   content: "PRÓXIMAMENTE";
   font-size: 1.8rem;
-    font-family: "DMSerifDisplay-Regular", sans-serif;
-    font-weight: 900 ;
-    color: var(--white);
+  font-family: "DMSerifDisplay-Regular", sans-serif;
+  font-weight: 900;
+  color: var(--white);
   position: relative;
   top: 0;
-  left:0;
+  left: 0;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.6);
