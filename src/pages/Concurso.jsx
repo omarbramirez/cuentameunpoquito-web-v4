@@ -1,7 +1,8 @@
-import Mural01 from '../assets/images/Mural01.png'; 
-import Mural02 from '../assets/images/Mural02.png';
+import Rules01 from '../assets/images/Rules01.png'; 
+import Rules02 from '../assets/images/Rules02.png';
+import FooterImg from '../assets/images/footerimg.png';
 
-import Table from '../components/Table'
+import Winners from '../components/Winners'
 
 function Concurso(){
     return(
@@ -14,12 +15,17 @@ function Concurso(){
             <b>
             Los múltiples participantes recogieron la diversidad de voces y miradas sobre el Quito de hoy. Aquí puedes consultar tanto la convocatoria como las listas de ganadores y menciones por categorías. 
             </b>
+            <a href="https://drive.google.com/file/d/1wZfbWsFPd6QATWW6pqzxa9Y3kwijNeXk/view"
+                                    target="_blank"
+                                    rel="noreferrer">
             <div id={`mural`}>
-            <img src={Mural01} alt="flower" className={`img`}/>
-            <img src={Mural02} alt="flower" className={`img`}/>
+            <img src={Rules01} alt="rules" className={`img`}/>
+            <img src={Rules02} alt="rules" className={`img`}/>
+            <img src={FooterImg} alt="footer" />
             </div>
+            </a>
             <h2>GANADORES</h2>
-            <Table/>
+            <Winners footerImg={FooterImg}/>
         </div>
         </>
     )

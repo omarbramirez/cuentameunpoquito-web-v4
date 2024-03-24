@@ -19,7 +19,7 @@ function Schools(){
                         <h3>{school.name} 
                         </h3>
                 </li>
-                {schoolsimgs[index].map((image, i)=>(
+                {schoolsimgs[index].map((image)=>(
                     <li key={`gallery-${school.name}`}>
                     <img src={image} alt={school.name} />
                 </li>
