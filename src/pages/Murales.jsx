@@ -14,7 +14,7 @@ import Mural12 from '../assets/images/murals/Mural12.jpg';
 
 
 function Murales() {
-    const muralimgs = [[Mural01,Mural02],[Mural03],[Mural04],[Mural05],[Mural06,Mural07],[Mural08,Mural09],[Mural10],[Mural11],[Mural12]]
+    const muralimgs = [[Mural01,Mural02],[Mural03],[Mural04],[Mural05],[Mural06,Mural07],[Mural09],[Mural10],[Mural11],[Mural12]]
     return (
         <>
             <h2>MURALES</h2>
