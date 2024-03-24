@@ -8,6 +8,7 @@ import Winners07 from '../assets/images/ganadores/Ganador07.jpg';
 import Winners08 from '../assets/images/ganadores/Ganador08.jpg';
 
 
+// eslint-disable-next-line react/prop-types
 function Winners({footerImg}){
     const winners =[Winners01,Winners02,Winners03,Winners04,Winners05,Winners06,Winners07,Winners08]
     return(
