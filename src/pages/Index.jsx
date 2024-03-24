@@ -1,7 +1,7 @@
 import Menu from '../bases/Menu';
 import Content from '../bases/Content';
 import Footer from '../bases/Footer';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Concurso from './Concurso';
 import Talleres from './Talleres';
 import Murales from './Murales';
@@ -13,11 +13,19 @@ import NotFound from '../bases/NotFound';
 function Index () {
     const[selectedPage, setSelectedPage] =useState('Index');
     const [isOpenMenu, setIsOpenMenu] = useState(false);
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [isOpenMenu]);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [selectedPage]);
+
     return(
         <>
         <div id={`index`}>
             <Menu setSelectedPage={setSelectedPage} setIsOpenMenu={setIsOpenMenu} isOpenMenu={isOpenMenu}/>
-            <div id={`container`}>
+            <div id={`container`} className={`${isOpenMenu ? 'is-open' : ''}`}>
 
             {selectedPage === 'Concurso' ? <Concurso/>:
             selectedPage === 'Talleres' ? <Talleres/>:

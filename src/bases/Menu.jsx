@@ -11,7 +11,7 @@ function Menu({ setSelectedPage, setIsOpenMenu, isOpenMenu }) {
 
     return (
         <>
-            <nav>
+            <nav className={`${isOpenMenu ? 'is-open' : ''}`}>
                 <ul>
                     <div style={{ padding: '0em 0.6em' }}>
                         <li>

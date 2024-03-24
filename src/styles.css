@@ -28,7 +28,11 @@
   list-style-type: none;
 }
 #container {
+  display:block;
   padding: 10% 0%;
+}
+#container.is-open{
+  display:none;
 }
 
 h1,
@@ -139,6 +143,10 @@ img {
 
 /*//////////////////MODULO MENU*/
 nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   position:sticky;
     Top:0px;
     z-index: 99999;
@@ -146,9 +154,11 @@ nav {
   background: var(--vitalidad);
   flex-direction: column;
   justify-content: center;
-  padding: 1em 0em;
+  padding: 0em;
 }
-
+nav.is-open{
+  height:100vh;
+}
 /*FUNCTIONS*/
 .dvs-header-menuItems {
   display: none;
@@ -157,7 +167,6 @@ nav {
 
 .dvs-header-menuItems.is-open {
   display: block;
-  height: 50vh;
 }
 
 /*//////////////////MODULO INDEX*/
