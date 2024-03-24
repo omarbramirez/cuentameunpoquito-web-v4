@@ -4,9 +4,12 @@ import Schools from '../components/Schools'
 function Talleres(){
     return(
         <>
-        <h2>TALLERES</h2>
+        <div>
+        <h2>TALLERISTAS</h2>
         <Collaborators/>
+        <h2>SEDES</h2>
         <Schools/>
+        </div>
         </>
     )
 }

@@ -14,14 +14,14 @@ function Schools(){
         <>
         <div>
 {SchoolsList.map((school, index)=>(
-            <ul key={`school-${index}`}>
+            <ul key={`school-${index}`} className={`schoolLists`}>
                 <li>
-                        <h3>{school.name} 
+                        <h3 className={`schoolName`}>{school.name} 
                         </h3>
                 </li>
                 {schoolsimgs[index].map((image)=>(
                     <li key={`gallery-${school.name}`}>
-                    <img src={image} alt={school.name} />
+                    <img src={image} alt={school.name} className={`schoolImg`}/>
                 </li>
                     ))}
             </ul>

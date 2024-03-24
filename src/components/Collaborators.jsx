@@ -14,10 +14,9 @@ function Collaborators(){
     const profiles = [Abril, Sandra, Diego, Pamela, Esteban, Mattias, Eduardo, Marcelo, Fer]
     return(
         <>
-        <div>
+        <div id={`collaboratorsList`}>
 {CollaboratorsList.map((collaborator, index)=>(
-            <ul key={`collaborator-${index}`}>
-
+            <ul key={`collaborator-${index}`} className={`collaborator`}>
                 <li>
                     <img src={profiles[index]} alt={collaborator.name} />
                 </li>

@@ -5,11 +5,20 @@ function Footer (){
         <ul id={`footer-list`}>
             <li className="footer-link">
               <a
-                href="https://culturaquito.com"
+                href="https://quitocultura.com/"
                 target="_blank"
                 rel="noreferrer"
               >
                 Secretaría de Cultura de Quito
+              </a>
+            </li>
+            <li className="footer-link">
+              <a
+                href="https://www.instagram.com/animal_sin_plumas_editores"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Animal sin Plumas Editores
               </a>
             </li>
             <li className="footer-link">
