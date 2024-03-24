@@ -11,7 +11,7 @@ import Contacto from './Contacto';
 import NotFound from '../bases/NotFound';
 
 function Index () {
-    const[selectedPage, setSelectedPage] =useState('Concurso')
+    const[selectedPage, setSelectedPage] =useState('Talleres')
     return(
         <>
         <div id={`index`}>

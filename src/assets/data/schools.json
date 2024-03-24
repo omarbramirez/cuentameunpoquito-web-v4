@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Colegio 1",
+        "images":[
+            "/src/assets/images/schools/Colegio01.jpg",
+            "/src/assets/images/schools/Colegio02.jpg"
+        ]
+    },
+    {
+        "name": "Colegio Guayllabamba",
+        "images":[
+            "/src/assets/images/schools/Colegio03.jpg",
+            "/src/assets/images/schools/Colegio04.jpg"
+        ]
+    },
+    {
+        "name": "Colegio Benalcázar",
+        "images":[
+            "/src/assets/images/schools/Colegio05.jpg",
+            "/src/assets/images/schools/Colegio06.jpg"
+        ]
+    },
+    {
+        "name": "Colegio Calderón",
+        "images":[
+            "/src/assets/images/schools/Colegio08.jpg",
+            "/src/assets/images/schools/Colegio09.jpg"
+        ]
+    }
+]

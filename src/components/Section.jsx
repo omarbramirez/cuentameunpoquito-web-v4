@@ -11,7 +11,7 @@ function Section ({sectionName,setSelectedPage}){
             >
             </div>
             <a
-                    href="#"
+                     
                     className={`link link-section`}
                     onClick={()=>{setSelectedPage(sectionName)}}
                 >

@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Abril Altamirano",
+        "info": "Editora y escritora.",
+        "image": "/src/assets/images/collaborators/abril.png"
+    },
+    {
+        "name": "Sandra Araya",
+        "info": "Editora y escritora.",
+        "image": "/src/assets/images/collaborators/sandra.png"
+    },
+    {
+        "name": "Diego Chamorro",
+        "info": "Director de la Escuela de Pensamiento Crítico 'Las babas del diablo'.",
+        "image": "/src/assets/images/collaborators/diego.png"
+    },
+    {
+        "name": "Pamela Ríos",
+        "info": "Librera independiente.",
+        "image": "/src/assets/images/collaborators/pamela.png"
+    },
+    {
+        "name": "Esteban Mayorga",
+        "info": "Investigador y docente.",
+        "image": "/src/assets/images/collaborators/esteban.png"
+    },
+    {
+        "name": "Mattias Tello",
+        "info": "Docente, escritor y editor.",
+        "image": "/src/assets/images/collaborators/mattias.png"
+    },
+    {
+        "name": "Eduardo Varas",
+        "info": "Escritor y periodista.",
+        "image": "/src/assets/images/collaborators/eduardo.png"
+    },
+    {
+        "name": "Marcelo Cruz",
+        "info": "Escritor y periodista.",
+        "image": "/src/assets/images/collaborators/marcelo.png"
+    },
+    {
+        "name": "Fer Mejía",
+        "info": "Escritora y periodista.",
+        "image": "/src/assets/images/collaborators/fer.png"
+    }
+]

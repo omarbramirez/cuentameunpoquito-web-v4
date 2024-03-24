@@ -11,7 +11,7 @@ function Welcome({setIndex}) {
 Celebramos la literatura breve en la ciudad de Quito.
                 </p>
                 <a
-                    href="#"
+                     
                     className={`link`}
                     onClick={()=>{setIndex(true)}}
                 >

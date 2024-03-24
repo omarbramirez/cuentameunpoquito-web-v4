@@ -20,7 +20,6 @@ function Concurso(){
             </div>
             <h2>GANADORES</h2>
             <Table/>
-           
         </div>
         </>
     )

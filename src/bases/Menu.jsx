@@ -11,7 +11,6 @@ function Menu({ setSelectedPage }) {
                     <ul>
                         <li>
                             <a 
-                            href="#"
                             onClick={()=>{setSelectedPage('Proyecto')}}
                             >
                                 El proyecto
@@ -19,7 +18,6 @@ function Menu({ setSelectedPage }) {
                         </li>
                         <li>
                             <a 
-                            href="#"
                             onClick={()=>{setSelectedPage('Concurso')}}
                             >
                                 Concurso
@@ -27,7 +25,6 @@ function Menu({ setSelectedPage }) {
                         </li>
                         <li>
                             <a 
-                            href="#"
                             onClick={()=>{setSelectedPage('Talleres')}}
                             >
                                 Talleres
@@ -35,7 +32,6 @@ function Menu({ setSelectedPage }) {
                         </li>
                         <li>
                             <a 
-                            href="#"
                             onClick={()=>{setSelectedPage('Murales')}}
                             >
                                 Murales
@@ -43,7 +39,6 @@ function Menu({ setSelectedPage }) {
                         </li>
                         <li>
                             <a 
-                            href="#"
                             onClick={()=>{setSelectedPage('Libro')}}
                             >
                                 Libro
@@ -57,7 +52,7 @@ function Menu({ setSelectedPage }) {
                         </a>
                         </li>
                         <li><a 
-                        href="#"
+                         
                         onClick={()=>{setSelectedPage('Contacto')}}
                         >
                             Contacto
