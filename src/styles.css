@@ -356,7 +356,7 @@ td {
 @media (min-width: 768px) {
 /*//////////////////ESTILOS GENERALES*/
 * {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   margin: 0;
   padding: 0;
   }  
@@ -484,10 +484,11 @@ img[alt="background-image"] {
 }
 #about-us-list{
   width: 80%;
+  align-items: start;
 }
 #about-us-list li{
   width: 25%;
-  height: 60vh;
+  padding: 7rem 0rem;
 }
 
 
@@ -587,6 +588,7 @@ img[alt="footerRules"]{
   justify-content: center;
   align-items: center;
   padding: 5rem 0rem;
+  
 }
 .schoolLists li{
   width:100%;
@@ -597,6 +599,31 @@ img[alt="footerRules"]{
 }
 
 .schoolImg {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*//////////////////MODULO MURALES*/
+.muralList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.muralList li {
+  width: 100%;
+}
+
+.muralList li p{
+  width: 60%;
+  text-align: center;
+  margin: auto;
+}
+
+.muralList li img{
   width: 100%;
   height: 70vh;
   object-fit: cover;

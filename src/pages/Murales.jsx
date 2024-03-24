@@ -24,7 +24,7 @@ function Murales() {
                     Murals.map((mural, index) => (
 
 
-                        <ul key={`mural-${index}`}>
+                        <ul key={`mural-${index}`} className={`muralList`}>
                             <li>
                                 <p>
                                     {`"${mural.text}".`}
