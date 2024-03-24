@@ -278,3 +278,33 @@ td {
   text-transform: capitalize !important;
   text-align: center;
 }
+
+/*//////////////////MODULO LIBRO*/
+#book{
+  background-image: url('./assets/images/Libro.jpg');
+  width: 100vw;
+  height: 100vh; /* Establece la altura al 100% del viewport */
+  margin: 0; /* Elimina los márgenes */
+  padding: 0; /* Elimina el relleno */
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#book::after{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  content: "PRÓXIMAMENTE";
+  font-size: 1.8rem;
+    font-family: "DMSerifDisplay-Regular", sans-serif;
+    font-weight: 900 ;
+    color: var(--white);
+  position: relative;
+  top: 0;
+  left:0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 0;
+}

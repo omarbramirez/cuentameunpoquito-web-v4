@@ -11,7 +11,7 @@ import Contacto from './Contacto';
 import NotFound from '../bases/NotFound';
 
 function Index () {
-    const[selectedPage, setSelectedPage] =useState('Murales')
+    const[selectedPage, setSelectedPage] =useState('Index')
     return(
         <>
         <div id={`index`}>
