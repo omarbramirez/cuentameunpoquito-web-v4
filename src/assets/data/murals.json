@@ -1,0 +1,59 @@
+[
+    {
+        "text": "Sin aliento para razonar con claridad, mirando hacia fuera en busca de refugio, de un pretexto para calmar esa imprudente rebeldía de la carne que a veces nos enciende y enloquece, ella prefirió hacer una pausa, hundirse en el misterio del paisaje de la ciudad -casas trepando a los cerros, bajando las quebradas- que despertaba a la caricia de la luz difusa del amanecer -cielo frágil de cristal en azul y rosa tras la silueta negra de la cordillera-, y surgía de las tinieblas y del sueño en contornos y ruidos lejanos, próximos, caprichosos. Mezcla chola -como sus habitantes- de cúpulas y tejas, de humo de fábrica y viento de páramo, de olor a huasipungo y misa de alba, de arquitectura de choza y campanario, de grito de arriero y alarido de ferrocarril, de bisbiseo de beatas y carajo de latifundistas, de chaquiñanes lodosos y veredas con cemento, de callejuelas antiguas -donde las piedras, las rejas, las espadañas coloniales han detenido el tiempo en plena aldea- y plazas y avenidas de amplitud y asfalto ciudadanos",
+        "info": ["Jorge Icaza", "El chulla Romero y Flores", "1958"],
+        "location": "Yaku",
+        "images": ["/src/assets/images/murals/Mural01.jpg",
+        "/src/assets/images/murals/Mural02.jpg"]
+    },
+    {
+        "text": "No, Quito era esa sombra a los pies del Pichincha, las callejas curvas, empinadas, los intestinos de ese paisaje lunar. Ciudad que crecía en su recuerdo de manera despiadada, que no lo dejaba en paz; ciudad inmersa en el infinito, cerca del cielo, pero desechada por la eternidad. (...) Odiaba aquellas sombras, temía convertirse en otra sombra, vivir en ese sonambulismo continuo. El olor del tiempo le acometía, y entonces, sólo soñaba en poderse librar de ese encanto pavoroso, y corría hacia el norte, iba por el Ejido solitario, únicamente coartado por la presencia de las prostitutas que a esas horas quebraban el rumbo para regresar sin dinero a sus cubiles",
+        "info": ["Paco Tobar García", "Los quiteños", "1981"],
+        "location": "Administración Zonal Manuela Sáenz",
+        "images": ["/src/assets/images/murals/Mural03.jpg"]
+    },
+    {
+        "text": "Todos cantan el fervor cívico se desborda desde la capital de todos los ecuatoriales oh cibdad (sic) española en el Ande las reinas desfilan con sus trajes andaluces y peinetas. Oh ciudad que el incario soñó la alegría del pueblo señores y señoras radioescuchas es impresionante es única en esta efemérides patria porque te hizo Atahualpa eres grande y también porque España te amó han llegado miles de turistas miles de visitantes extranjeros y nacionales hay muchísimos extranjeros aquí para celebrar una vez más el aniversario de la fundación española de la ciudad Luz de América Cara de Dios París Chiquito Arrabal del Cielo Tome Paico Rey de Copas el licor de la nacionalidad (…)",
+        "info": ["Natasha Salguero", "Azulinaciones", "1989"],
+        "location": "Biblioteca González Suárez",
+        "images": ["/src/assets/images/murals/Mural04.jpg"]
+    },
+    {
+        "text": "La marín brama con un río vigorosamente nutrido de lluvia y desperdicios que bajan por todas las calles, en el declive, tanto del barrio de la tola como de las apretadas callejuelas del quito colonial, apenas se ve el destello de los autos ahogados en torno del monumento de sanmartín que se mantiene hierático y brillante de lluvia, con su caballo casi sumergido, jesús, con las ancas perdidas en el crepitante lodazal de la calle de los suspiros, resbala, rema, nada hacia la plaza, hasta ingresar en la neblina y en la oscuridad espesa del agua como que viviera una transmigración, como que por primera vez estuviera satisfecho de ser un viejo sapo sosegado e intencionalmente dedicado a ahogarse en esa tempestad quiteña",
+        "info": ["Huilo Ruales", "El alma al Diablo", "1996"],
+        "location": "Administración Zonal Eloy Alfaro",
+        "images": ["/src/assets/images/murals/Mural05.jpg"]
+    },
+    {
+        "text": "Salí del bar como con pena, no sabía si de Antonio o de mí, y me dirigí al Eugenio Espejo. Todavía llovía, pero igual decidí caminar. Después de todo, era posible que encontrara algo que me sirviera. El agua en las canaletas corría con fuerza, caía y se acumulaba en los desniveles de la avenida América. Tres carros que iban a toda me mojaron. La ciudad está llena de basura, en buena hora, para mí, pensé. Cuando finalmente llegué a El Ejido, lo rodeé; nada inte-resante. En las veredas de la Casa de la Cultura, nada. ¿Funciona de verdad el sistema de recolección de basura del distrito metropurita-no o, de repente, se me gastaron los ojos, se llenaron de la neblina que me impide encontrar lo que busco?",
+        "info": ["María Auxiliadora Balladares", " Las vergüenzas", "2021"],
+        "location": "Museo Interactivo de Ciencia",
+        "images": ["/src/assets/images/murals/Mural06.jpg",
+        "/src/assets/images/murals/Mural07.jpg"]
+    },
+    {
+        "text": "La ciudad que se extiende más allá, entre la marea helada de las montañas, se pierde al tocar los nevados y parece un manto de plomo sobre la hondura del valle. La ciudad es un lago de mercurio que se ensancha de norte a sur, y sobre el cual solamente despunta la figura inerte de una virgen alada",
+        "info": ["Rommel Manosalvas", "Anatomía transparente", "2022"],
+        "location": "Centro Cultural Metropolitano",
+        "images": ["/src/assets/images/murals/Mural08.jpg",
+        "/src/assets/images/murals/Mural09.jpg"]
+    },
+    {
+        "text": "(...) La ciudad era única. Rodeada de montañas nevadas y de otros vapores, se había hecho inaccesible. La imposición de un coloniaje brutal y desenfrenado, la tristeza congénita, el buscar el cajón de las ideas entre los trastos viejos y apolillados de los desvanes, los ojos que siempre estaban bizqueando para mirar hacia atrás, habían hecho de los habitantes de la ciudad seres decapitados. Pero, sin embargo, ellos se sentían inseguros porque les habían dicho que en otras partes del planeta había gente que estaba loca por efecto de la prisa (...)",
+        "info": ["Alicia Yáñez", "Bruna Soroche y los tíos", "1973"],
+        "location": "Centro de Arte Contemporáneo",
+        "images": ["/src/assets/images/murals/Mural10.jpg"]
+    },
+    {
+        "text": "Ocurre que los hombres, el día una vez terminado, suelen despedirse de parientes y amigos y, aislándose en grandes cubos ad-hoc, después de hacer las tinieblas se desnudan, se estiran sobre sus propias espaldas, se cubren con mantas de colores y se quedan ahí sin pensamiento, inmóviles, ciegos, sordos y mudos. Ocurre también generalmente que estos mismos hombres, transcurrido ya cierto tiempo, de improviso se sienten vueltos a la vida y comienzan a moverse y a ver y a oír como desde lejos. Ya cerca, un mínimo número de esos mismos hombres introducen sus pellejos en agua, bufan, tiritan y silban. Luego ocultan todo su cuerpo en telas especiales, dejando afuera sólo sus aparatos más indispensables para ponerse en relación con sus vecinos y abandonan esos grandes cubos, con los párpados hinchados y amarillos",
+        "info": ["Pablo Palacio", "Vida del ahorcado", "1932"],
+        "location": "Centro Cultural Metropolitano",
+        "images": ["/src/assets/images/murals/Mural11.jpg"]
+    },
+    {
+        "text": "Por la calle de ‘La Merced’. El campanario desgarra como un puñal el pecho de los cielos. La gran campana, -la más grande de esta noble ciudad de Quito,-es señora de real estirpe, a cuya voz se estremecen las cenizas de los Emperadores Indios. Herida en el corazón, su dolor es el grito de todos los corazones vagabundos que no aman. La clásica pila de piedra, inventa la canción del agua: ahorcada está en sus burbujas el avemaría. Como una abuela cristiana, despierta a la hora del ángelus, para recibir de rodillas la hostia del primer rayo de sol. Su espíritu humilde apaga en la madrugada la sed de los borrachos. Lejos, ‘El panecillo’ quisiera beberla. ‘La Policía’, muestra el sarcasmo de su máscara como insulto a la miseria",
+        "info": ["Humberto Salvador", "En la ciudad he perdido una novela", "1929"],
+        "location": "Casa Somos de Carapungo",
+        "images": ["/src/assets/images/murals/Mural12.jpg"]
+    }
+]
