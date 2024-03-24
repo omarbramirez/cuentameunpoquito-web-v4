@@ -330,3 +330,65 @@ td {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 0;
 }
+
+
+@media (min-width: 768px) {
+* {
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 0;
+  }  
+  #container{
+    margin: 0;
+    padding: 0;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding:0;
+  }
+
+  /*//////////////////MODULO MENU*/
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position:sticky;
+    Top:0px;
+    z-index: 99999;
+  width: 100%;
+  background: var(--vitalidad);
+  flex-direction: column;
+  justify-content: center;
+  padding: 0em;
+}
+nav.is-open{
+  height:100vh;
+}
+
+nav ul div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding:0;
+}
+
+.dvs-header-menuItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.dvs-header-menuItems-trigger{
+  display:none;
+}
+}
