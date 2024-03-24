@@ -1,31 +1,25 @@
 import CollaboratorsList from '../assets/data/collaborators.json';
-import Abril from '../assets/images/collaborators/abril.png'; 
+import Abril from '../assets/images/collaborators/abril.png';
+import Sandra from '../assets/images/collaborators/sandra.png'; 
+import Diego from '../assets/images/collaborators/diego.png'; 
+import Pamela from '../assets/images/collaborators/pamela.png'; 
+import Esteban from '../assets/images/collaborators/esteban.png'; 
+import Mattias from '../assets/images/collaborators/mattias.png'; 
+import Eduardo from '../assets/images/collaborators/eduardo.png';  
+import Marcelo from '../assets/images/collaborators/marcelo.png'; 
+import Fer from '../assets/images/collaborators/fer.png'; 
 
 function Collaborators(){
+
+    const profiles = [Abril, Sandra, Diego, Pamela, Esteban, Mattias, Eduardo, Marcelo, Fer]
     return(
         <>
         <div>
-
-        <ul>
-
-<li>
-    <img src={Abril} alt="Abril Altamirano" />
-</li>
-<li>
-        <p>Abril Altamirano
-        <br/>
-        Editora y escritora.
-        </p>
-
-</li>
-</ul>
-
-
 {CollaboratorsList.map((collaborator, index)=>(
             <ul key={`collaborator-${index}`}>
 
                 <li>
-                    <img src={collaborator.image} alt={collaborator.name} />
+                    <img src={profiles[index]} alt={collaborator.name} />
                 </li>
                 <li>
                         <p>{collaborator.name} 
