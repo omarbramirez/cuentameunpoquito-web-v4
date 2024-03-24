@@ -9,7 +9,7 @@ function Concurso(){
 
         <div>
             <p>
-            Más de 1000 participantes fueron parte de la primera edición del concurso de microcuentos de #CuéntameUnPoQuito entre los meses de enero y marzo de 2024. El concurso tuvo 8 categorías de participación: 3 por edad (infantil, juvenil y adultos) y 5 por temáticas (fortaleza femenina, nuevas masculinidades, comunidad LGBTQ+, grupos diversos y capacidades diferentes). El certamen estuvo dirigido a personas nacidas en Quito residentes el cualquier parte del territorio nacional o personas no nacidas en Quito, pero residentes de la ciudad. <br />
+            Más de 1000 participantes fueron parte de la primera edición del concurso de microcuentos de #CuéntameUnPoQuito entre los meses de enero y marzo de 2024. El concurso tuvo 8 categorías de participación: 3 por edad (infantil, juvenil y adultos) y 5 por temáticas (fortaleza femenina, nuevas masculinidades, comunidad LGBTQ+, grupos diversos y capacidades diferentes). El certamen estuvo dirigido a personas nacidas en Quito residentes en cualquier parte del territorio nacional o personas no nacidas en Quito, pero residentes de la ciudad. <br />
             </p>
             <b>
             Los múltiples participantes recogieron la diversidad de voces y miradas sobre el Quito de hoy. Aquí puedes consultar tanto la convocatoria como las listas de ganadores y menciones por categorías. 
