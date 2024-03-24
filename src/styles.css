@@ -268,6 +268,15 @@ footer {
   background-image: url("./assets/images/Libro.jpg");
 }
 
+
+/*//////////////////MODULO PROYECTO*/
+
+#about-us-list li{
+  margin: 0rem 2rem;
+}
+
+
+
 /*//////////////////MODULO CONTACTO*/
 #form {
   display: block;
@@ -282,7 +291,7 @@ img[alt="bird"] {
 }
 
 /*//////////////////MODULO CONCURSO*/
-#mural {
+#rules {
   background: var(--mural);
   margin: 10% 0%;
 }
@@ -475,7 +484,6 @@ img[alt="background-image"] {
 #about-us-list li{
   width: 25%;
   height: 60vh;
-  margin: 0rem 2rem;
 }
 
 
@@ -489,4 +497,61 @@ img[alt="about-us"] {
   width: 90px;
   height: 90px;
 }
+
+/*//////////////////MODULO CONCURSO*/
+#contest{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  width:100%;
+  margin: 0rem 0rem 10rem 0rem;
+}
+#contest div{
+  width: 50%;
+  height: fit-content;
+  position: sticky;
+  top: 10rem;
+  padding: 0rem 5rem;
+}
+#contest div > *{
+  text-align: left;
+  font-size: 1.3rem;
+}
+
+#contest a{
+  width: 50%;
+}
+
+#contest a div{
+  padding:0;
+  margin:0;
+  width: 100%;
+}
+
+img[alt="rules"],
+img[alt="footerRules"]{
+  width: 80%;
+  margin-top: 4rem; 
+  margin-left: 5%;
+}
+
+#winnersList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0rem 5rem;
+}
+
+#winnersList div{
+  display: flex;
+  flex-direction: column;
+  width:46%;
+  padding: 0% 2%;
+}
+#winnersList div img{
+  width: 100%;
+}
+
+
 }

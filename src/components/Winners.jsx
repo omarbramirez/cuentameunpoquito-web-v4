@@ -13,7 +13,7 @@ function Winners({footerImg}){
     const winners =[Winners01,Winners02,Winners03,Winners04,Winners05,Winners06,Winners07,Winners08]
     return(
         <>
-        <div>
+        <div id={`winnersList`}>
 {winners.map((winner, index)=>(
     <div key={`winnerslist-${index}`} style={{'margin': '5% 0%'}}>
             <img  src={winner} alt="winnerslist" />
