@@ -2,7 +2,7 @@ function Footer (){
     return (
         <>
         <footer>
-        <ul style={{padding: '0em 0.6em'}}>
+        <ul id={`footer-list`}>
             <li className="footer-link">
               <a
                 href="https://culturaquito.com"
