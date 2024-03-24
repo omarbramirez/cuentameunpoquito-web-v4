@@ -1,7 +1,7 @@
 function Form (){
     return(
 <div id={`form`}>
-    <p>Escríbenos</p>
+    <h3>Escríbenos</h3>
             <form>
                 <label htmlFor="nombre">Nombre:</label><br />
                 <input type="text" id="nombre" name="nombre" required /><br />

@@ -286,6 +286,12 @@ footer {
   padding: 0em 1em;
 }
 
+#socialMediaForm{
+  display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+
 img[alt="bird"] {
   margin: 0rem 0rem 0.9rem 0rem;
   width: 100%;
@@ -630,4 +636,28 @@ img[alt="footerRules"]{
   object-position: center;
 }
 
+/*//////////////////MODULO CONTACTO*/
+#contact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  padding: 5rem;
+}
+#contact div{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 5rem;
+}
+#contact div p{
+  padding-left: 0;
+}
+#socialMediaForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
 }

@@ -6,17 +6,19 @@ import Bird from '../assets/images/Bird.png'
 function Contacto() {
     return (
         <>
-        <h2>CONTACTO</h2>
+        <div id={`contact`}>
+
             <div>
+        <h2>CONTACTO</h2>
                 <img src={Bird} alt="bird" />
-                <p>
+                <h3>
                     Contáctanos
-                </p>
+                </h3>
                 <p style={{ fontSize: '1rem', margin: '0', padding: '0'}}>
                     consultascuentameunpoquito@gmail.com
                 </p>
-                <p>Síguenos</p>
-                <ul style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
+                <h3>Síguenos</h3>
+                <ul id={`socialMediaForm`}>
                     <li>
                         <a
                             href="https://www.facebook.com/profile.php?id=61552905026731"
@@ -35,7 +37,7 @@ function Contacto() {
                             href="https://www.instagram.com/cuentame.un.poquito?igsh=MW16dXpic2FjM2xoeQ=="
                             target="_blank"
                             rel="noreferrer"
-                        >
+                            >
 
                             <InstagramIcon
                                 fill={`#3c3c3b`}
@@ -48,6 +50,7 @@ function Contacto() {
 
             <Form />
 
+                                </div>
         </>
     )
 }
