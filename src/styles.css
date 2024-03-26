@@ -210,6 +210,23 @@ footer {
 #footer-list{
   padding: 0em 0.6em;
 }
+#credits{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.4rem;
+}
+#credits > *,
+#credits li > * {
+  color: var(--white);
+  padding:0;
+  margin: 0;
+}
+#separator{
+  display: none;
+  margin: 0em 1em;
+}
 
 /*//////////////////MODULO MAIN*/
 img[alt="background-image"] {
@@ -434,6 +451,15 @@ nav ul div{
 #footer-list{
   padding: 0;
   margin: 0;
+}
+
+#credits{
+  flex-direction: row;
+}
+
+#separator{
+  display: block;
+  margin: 0em 1em;
 }
 
   /*//////////////////MODULO MAIN*/

@@ -39,7 +39,26 @@ function Footer (){
                 Instagram
               </a>
             </li>
-          </ul> 
+          </ul>
+           <ul id={`credits`}>
+            <li>
+              <p>
+
+            @ 2024 CUENTAME-UN-POQUITO.COM</p>
+            </li>
+            <li id={`separator`}>
+              <p> | </p>
+            </li>
+            <li>
+            <a
+                href="https://omarbramirez.github.io/omar-b-ramirez/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Omar Ramírez
+              </a>
+            </li>
+           </ul>
         </footer>
         </>
     )
