@@ -51,7 +51,7 @@ function Footer (){
             </li>
             <li>
             <a
-                href="https://omarbramirez.github.io/omar-b-ramirez/"
+                href="https://main--omarbramirez.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
